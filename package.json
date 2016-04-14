@@ -1,0 +1,15 @@
+{
+  "name": "thinkjs-application",
+  "description": "application created by thinkjs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node www/development.js"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2",
+    "thinkjs": "2.1.x"
+  },
+  "repository": "",
+  "license": "MIT"
+}

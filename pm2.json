@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "ailikeji_home",
+    "script": "www/production.js",
+    "cwd": "/Users/local/workspace/ailikeji_home//Users/local/workspace/ailikeji_home",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
