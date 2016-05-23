@@ -176,7 +176,56 @@ hr {
 }
 
 .top-container {
-    padding-top: 180px;
+    padding-top: 110px;
+}
+
+.nav-bar {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 340px;
+    opacity: 0.4;
+    background-image: url(/static/img/navbar.jpg);
+    background-repeat: round;
+}
+
+.nav-bar-img {
+    opacity: 0.4;
+    float: left;
+}
+
+.nav-bar-img img:hover {
+    opacity: 1;
+}
+
+.nav-bar-test {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    top: 27%;
+}
+
+.nav-bar-test .img-alt .fis-alt {
+    font-size: 36px;
+}
+
+.nav-bar-test .img-alt .sec-alt {
+    font-size: 18px;
+}
+
+.section-content p {
+    text-indent: 2em;
+}
+
+.nav-bar-text span {
+    font-size: x-large;
+    font-family: serif;
+}
+
+.nav-bar img {
+    opacity: 0.4;
 }
 
 .fix-pading-top {
@@ -295,17 +344,21 @@ footer {
     color: #b20000;
 }
 
-img {
+.img-filter {
     -webkit-filter: grayscale(1);
     filter: grayscale(100%);
     -webkit-backface-visibility: hidden;
     mix-blend-mode: multiply
 }
 
-img:hover {
+.img-filter:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
     mix-blend-mode: normal
+}
+
+.contact-content {
+    font-family: serif;
 }
 
 /* ==========================================================================
@@ -461,6 +514,16 @@ img:hover {
 
     .logo {
         margin: 26px 0px -30px 20px !important
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .desp-control dt {
+        width: 60px !important;
+    }
+
+    .desp-control dd {
+        margin-left: 80px !important;
     }
 }
 

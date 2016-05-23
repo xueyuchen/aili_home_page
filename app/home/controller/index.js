@@ -14,10 +14,10 @@ module.exports = think.controller(Base, {
     //auto render template file index_index.html
     return self.display();
   },
-  joinUsAction: function(self) {
+  introAction: function(self) {
     return self.display();
   },
-  aboutUsAction: function(self) {
+  contactAction: function(self) {
     return self.display();
   }
 });
