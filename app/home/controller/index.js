@@ -19,5 +19,8 @@ module.exports = think.controller(Base, {
   },
   contactAction: function(self) {
     return self.display();
+  },
+  jobAction: function(self) {
+    return self.display();
   }
 });
