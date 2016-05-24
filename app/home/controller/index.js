@@ -22,5 +22,8 @@ module.exports = think.controller(Base, {
   },
   jobAction: function(self) {
     return self.display();
+  },
+  recruitAction: function(self) {
+    return self.display();
   }
 });
